@@ -21,10 +21,8 @@ public class App {
     		break;
     	}else if(command.equals("/lesson/add")) {
     			System.out.println("수업등록!!");
-    			// 클래스로 정의한 새 데이터 타입의 메모리(인스턴스) 만들기
     			Lesson lesson = new Lesson();
     			
-    			// 사용자가 입력한 값을 메모리에 담는다.
     			System.out.print("번호? ");
     			lesson.no = Integer.parseInt(keyboard.nextLine());
     			
